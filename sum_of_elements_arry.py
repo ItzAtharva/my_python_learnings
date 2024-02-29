@@ -1,8 +1,12 @@
-def calculate_sum(arr):
-    total = 0
-    for i in arr:
-        total += i
-    return
-# Example usage:
+# Initialize the array
 arr = [1, 2, 3, 4, 5]
-print(calculate_sum(arr))  # Output: 15
+
+# Initialize the sum
+sum = 0
+
+# Iterate over the array and add each element to the sum
+for i in range(len(arr)):
+    sum += arr[i]
+
+# Print the sum
+print("Sum of all the elements of an array:", sum)
